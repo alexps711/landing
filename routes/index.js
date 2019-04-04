@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 //mailgun constants
-const API_KEY = '1bafee8fba4e98f14f14af1c074b9104-b9c15f4c-3b2c6121';
+const API_KEY = '****';
 const DOMAIN = 'mg.wellyou.io';
 const HOST = 'api.eu.mailgun.net';
 const mailgun = require('mailgun-js')({apiKey: API_KEY, domain: DOMAIN, host: HOST});
